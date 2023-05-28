@@ -1,7 +1,8 @@
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+import { RouterProvider } from 'react-router-dom';
+import publicRoute from './routes/publicRoute';
 
-export default App
+const App = () => {
+  return <RouterProvider router={publicRoute} />;
+};
+
+export default App;
