@@ -52,11 +52,10 @@ const Admin = () => {
                     Account details
                   </a>
                 </li>
-                <li className="link-item">
-                  <a href="wishlist.html">Wishlist</a>
-                </li>
-                <li className="link-item">
-                  <a href="login.html">Logout</a>
+                <li className="nav-item">
+                  <a href="/wish" className="nav-link">
+                    Wish
+                  </a>
                 </li>
               </ul>
 
